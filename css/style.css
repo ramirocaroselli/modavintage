@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #913826;
+}
+
+header {
+    height: 100%;
+    background: #f9dbb9;
+    padding: 10px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+header img {
+    max-height: 150px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Truculenta", sans-serif;
+    font-size: 30px;
+    color: #75AA96;
+    transition: color 0.3s;
+}
+
+nav ul li:hover a {
+    color: #2A446A;
+}
+
+nav img {
+    margin-right: 350px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+  justify-content: center;
+  padding-bottom:30px;
+}
+
+
+
+.Slider {
+    height: 600px;
+    background-image: url(../img/slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+}
+
+footer {
+    background-color: #558C7D;
+    height: 150px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    display: flex;
+    justify-content: right;
+}
+
+footer img {
+    width: 50px;
+}
+
+.container footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.container footer ul li {
+    margin: 0 10px;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #558C7D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #2A446A;
+}
+
+main img {
+    border-radius:10px; 
+    max-width: 60%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.Prendas h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+      
+/* Añade este estilo al final de tu archivo CSS */
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+   
+    nav ul {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+    nav img {
+        margin-right:20px;
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+   
+
+    nav ul li a {
+        font-size: 16px;
+    }
+    nav img {
+        margin-right:0px;
+     
+    }
+}
+
