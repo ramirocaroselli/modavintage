@@ -1,0 +1,32 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    justify-content: center;
+    padding-bottom: 30px;
+      img {
+        border-radius: 10px;
+        max-width: 60%;
+        height: auto;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .Prendas {
+        h1 {
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+  }
+  
+  
