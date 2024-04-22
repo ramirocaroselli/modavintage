@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +16,7 @@ header {
   border-top-left-radius: 70px;
   border-top-right-radius: 70px;
 }
+
 header img {
   max-height: 150px;
 }
@@ -30,23 +32,28 @@ nav {
   align-items: center;
   margin-top: 20px;
 }
+
 nav ul {
   list-style: none;
   display: flex;
 }
+
 nav ul li {
   margin: 0 10px;
 }
+
 nav ul li a {
   text-decoration: none;
   font-family: "Truculenta", sans-serif;
   font-size: 30px;
-  color: #75aa96;
+  color: #75AA96;
   transition: color 0.3s;
 }
-nav ul li a:hover {
-  color: #2a446a;
+
+nav ul li:hover a {
+  color: #2A446A;
 }
+
 nav img {
   margin-right: 350px;
 }
@@ -73,23 +80,26 @@ main {
 }
 
 footer {
-  background-color: #558c7d;
+  background-color: #558C7D;
   height: 150px;
   border-bottom-left-radius: 70px;
   border-bottom-right-radius: 70px;
   display: flex;
   justify-content: right;
 }
+
 footer img {
   width: 50px;
 }
-footer .container ul {
+
+.container footer ul {
   list-style: none;
   display: flex;
   align-items: center;
   padding: 10px;
 }
-footer .container ul li {
+
+.container footer ul li {
   margin: 0 10px;
 }
 
@@ -98,30 +108,32 @@ footer .container ul li {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .contact-form .form-group {
   margin-bottom: 20px;
 }
-.contact-form .form-group label {
+
+.contact-form label {
   display: block;
   margin-bottom: 5px;
 }
-.contact-form .form-group input[type=text],
-.contact-form .form-group input[type=tel],
-.contact-form .form-group input[type=email],
-.contact-form .form-group textarea {
+
+.contact-form input[type=text],
+.contact-form input[type=tel],
+.contact-form input[type=email],
+.contact-form textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.contact-form .form-group input[type=text] textarea,
-.contact-form .form-group input[type=tel] textarea,
-.contact-form .form-group input[type=email] textarea,
-.contact-form .form-group textarea textarea {
+
+.contact-form textarea {
   resize: none;
 }
+
 .contact-form button {
-  background-color: #558c7d;
+  background-color: #558C7D;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -129,8 +141,9 @@ footer .container ul li {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
 .contact-form button:hover {
-  background-color: #2a446a;
+  background-color: #2A446A;
 }
 
 main img {
@@ -153,6 +166,7 @@ main img {
   align-items: center;
 }
 
+/* Añade este estilo al final de tu archivo CSS */
 /* Media Queries */
 @media screen and (max-width: 1200px) {
   nav ul {
@@ -182,4 +196,4 @@ main img {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=backup.css.map */
